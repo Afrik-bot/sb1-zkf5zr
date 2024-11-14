@@ -1,0 +1,16 @@
+/* Logo hover animation */
+.logo-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-hover:hover {
+  transform: scale(1.05);
+}
+
+.logo-hover .wine-glass {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-hover:hover .wine-glass {
+  transform: rotate(-10deg);
+}
